@@ -1,19 +1,18 @@
-# :earth_americas: GDP dashboard template
+# ChemBase-streamlit
 
-A simple Streamlit app showing the GDP of different countries in the world.
+A Chemical Safety Database build with Streamlit, Vanilla CSS, and custom auto-search on typing functionality.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## Features
+- **Landing page**: Search bar, background image with overlay, total chemical count.
+- **Search results page**: Grid of compounds, auto-search without pressing Enter.
+- **MSDS and Structural Formula details**: Clean pop-up dialog with images and documents.
 
-### How to run it on your own machine
-
-1. Install the requirements
-
+## How to run locally
+1. Install Streamlit:
+   ```bash
+   pip install streamlit
    ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
+2. Run the application:
+   ```bash
+   python -m streamlit run app.py
    ```
